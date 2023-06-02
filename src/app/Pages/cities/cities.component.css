@@ -1,0 +1,17 @@
+mat-card {
+    border-radius: 10px; 
+    padding: 0; 
+    margin: 0; 
+    height: 128px; 
+    width: 20vw;
+    
+}
+
+mat-list-item {
+    border-radius: 10px; 
+    padding: 0; 
+    margin-top: 10px; 
+    height: 128px; 
+    width: 20vw;
+    border: 1px solid black;
+}

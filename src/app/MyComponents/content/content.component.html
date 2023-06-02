@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row justify-content-center align-items-center g-2">
+        <div class="col">
+            <div class="card border-secondary m-2">
+                <div class="card-body">
+                    <h4 class="card-title">Binding</h4>
+                    <p class="card-text">Sum of numbers</p>
+                    <input [(ngModel)]="number" type="text" placeholder="input number...">
+                    <br>
+                    <button (click)="btnAddNumberClick()" type="button" class="btn btn-secondary">Add number</button>
+                    <br>
+                    <h1>Result: {{sum}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center g-2">
+        <div class="col col-6">
+            <div class="card border-secondary m-2" [ngClass]="[myCardStyle]">
+                <div class="card-body">
+                    <h4 class="card-title">Change style</h4>
+                    <button (click)="btnChangeStyleClick()" type="button" class="btn btn-danger">{{btnCaption}}</button>
+                </div>
+            </div>
+        </div>
+        <div class="col col-6">
+            <div class="card border-secondary m-2">
+                <div class="card-body">
+                    <h4 class="card-title">Card 3</h4>
+                    <p class="card-text">This is third card of content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

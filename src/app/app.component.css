@@ -1,0 +1,38 @@
+div.header {
+    background-color: whitesmoke;
+    width: 100vw;
+    margin-left: 0;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+}
+
+div.layout {
+    height: 75vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+div.sider {
+    width: 15vw;
+    background-color: gray;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+div.footer {
+    height: 15vh;
+    background-color: whitesmoke;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}

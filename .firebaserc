@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ria-case-study-angular": {
+      "hosting": {
+        "projectAngular": [
+          "ria-case-study-angular"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ria-case-study-angular"
+  }
+}

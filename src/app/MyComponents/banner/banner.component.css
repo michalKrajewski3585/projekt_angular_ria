@@ -1,0 +1,15 @@
+mat-toolbar {
+    height: auto;
+    padding-top: auto;
+    display: flex;
+}
+
+.sidenav a {
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+.sidenav a:hover{
+    background-color: #818181;
+    color: #f1f1f1;
+}

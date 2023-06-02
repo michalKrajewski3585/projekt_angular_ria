@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="header row justify-content-center align-items-center g-2">
+        <app-banner></app-banner>
+    </div>
+    <div class="layout row align-items-center g-2">
+        <div class="sider col col-3"><app-sidebar></app-sidebar></div>
+        <div class="col col-9" [@routeAnimations]="prepareRoute(outlet)" style="text-align: center;"><router-outlet #outlet="outlet"></router-outlet></div>
+    </div>
+    <div class="footer row justify-content-center align-items-center g-2">
+        <div class="col"><app-footer [author]="author" [index]="index"></app-footer></div>
+    </div>
+</div>
